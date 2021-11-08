@@ -1,0 +1,18 @@
+--Employee
+-- 1)
+-- SELECT * FROM employee;
+-- SELECT first_name, last_name FROM employee
+-- WHERE city = 'Calgary';
+-- 2)
+-- SELECT MIN(birth_date) FROM employee;
+-- SELECT * FROM employee;
+-- 3)
+-- SELECT MAX(birth_date) FROM employee;
+-- 4)
+-- SELECT employee_id FROM employee
+-- WHERE last_name = 'Edwards';
+-- SELECT * From employee
+-- Where reports_to = 2;
+-- 5)
+-- SELECT COUNT(*) FROM employee
+-- WHERE city = 'Lethbridge';

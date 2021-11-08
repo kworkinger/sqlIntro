@@ -1,0 +1,26 @@
+ORDERS
+--
+-- 1)
+-- CREATE TABLE orders(
+--   order_id SERIAL PRIMARY KEY,
+--   person_id INT,
+--   product_name VARCHAR(20),
+--   product_price INT,
+--   quantity INT
+--   );
+-- 2)
+-- INSERT INTO orders (person_id, product_name, product_price, quantity)
+-- VALUES (1, 'hamburger', 8, 1),
+-- (1, 'cheeseburger', 9, 1),
+-- (2, 'steak fries', 5, 1),
+-- (2, 'philly cheesesteak', 9, 1),
+-- (2, 'street taco', 3, 1);
+-- 3)
+-- SELECT * FROM orders;
+-- 4)
+-- SELECT SUM(quantity) FROM orders;
+-- 5)
+-- SELECT SUM(product_price) FROM orders;
+-- 6)
+-- SELECT SUM(product_price) FROM orders
+-- GROUP BY person_id;
