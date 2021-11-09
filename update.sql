@@ -1,0 +1,21 @@
+-- UPDATE
+-- 1)
+-- UPDATE customer
+-- SET fax = null
+-- WHERE fax IS NOT null;
+-- 2)
+-- UPDATE customer
+-- SET company = 'self'
+-- WHERE company IS null;
+-- 3)
+-- UPDATE customer
+-- SET last_name = 'Thompson'
+-- WHERE last_name IN ('Barnett');
+-- 4)
+-- UPDATE customer
+-- SET support_rep_id = 4
+-- WHERE email IN ('luisrojas@yahoo.cl');
+-- 5)
+-- UPDATE track
+-- SET composer = 'The darkness around us'
+-- WHERE composer IS null;
